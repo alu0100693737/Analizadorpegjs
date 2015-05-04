@@ -1,4 +1,7 @@
 <h1><img src="dojocat.jpg" WIDTH=80 HEIGHT=80 alt="Syntax Tree"/>Analizador de PL0 ampliado usando PEG.js</h1>
+
+Ejemplos utilizados en public/ejemplos 
+
 <div id="content">
   <p class="loadfile">
     <input type="file" id="examples" />
