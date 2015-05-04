@@ -1,4 +1,7 @@
 <h1><img src="dojocat.jpg" WIDTH=80 HEIGHT=80 alt="Syntax Tree"/>Analizador de PL0 ampliado usando PEG.js</h1>
+
+Ejemplos utilizados en public/ejemplos 
+
 <div id="content">
   <p class="loadfile">
     <input type="file" id="examples" />
@@ -21,8 +24,24 @@
           </textarea>
           <br/>
           <label for="saveas">Save as</label>
-          <input id="saveas" type="text" name="fname" 
-                 title="name" pattern="\w+" />
+          
+	EJ: 
+
+	var x, squ;
+ 
+	procedure square;
+	begin
+	   squ = x * x
+	end;
+	 
+	begin
+	   x = 1 - 4 - 2;
+	   while x <= 10 do
+	   begin
+	      call square;
+	      x = x + 1
+	   end
+	end. <br> <br>
         </form>
       </td>
       <td><button id="parse" type="button">parse</button></td>
