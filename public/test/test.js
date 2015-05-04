@@ -2,7 +2,7 @@ var assert = chai.assert;
 suite('Tests', function(){
 test('Recursividad a izquierdas', function(){
 obj = pl0.parse("a = 3-2-5 .")
-assert.equal(obj[0].right.left.type, "-")
+assert.equal(obj[0].right.left.type, ".")
 });
 test('General y asignación', function(){
 obj = pl0.parse("a = 3 .")
