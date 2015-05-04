@@ -6,23 +6,12 @@
 
 El objetivo de esta práctica es reescribir el analizador sintáctico del lenguaje PL0 realizado en la práctica anterior usando PEG.js .
 
-## Tareas:
-
-
-- Modificar block y statement para que los procedure reciban argumentos y las llamadas a procedimiento puedan pasar argumentos.
-
-- Actualizar la documentación de la gramática para que refleje la gramática ampliada
-
-- Limitar el número de programas que se pueden salvar a un número prefijado, por ejemplo 10. Si se intenta salvar uno se suprime uno al    azar y se guarda el nuevo.
-    
-
-
 Enlaces
 --------------
 
-- Despliegue: 
-- Tests: 
-- Repositorio: 
+- Despliegue: https://secret-waters-1524.herokuapp.com/
+- Tests: https://secret-waters-1524.herokuapp.com/test
+- Repositorio: https://github.com/alu0100693737/Analizadorpegjs
  
 
 
