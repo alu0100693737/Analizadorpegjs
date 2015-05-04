@@ -1,6 +1,6 @@
 # ETSII ULL Grado de Informatica Asignatura Procesadores de Lenguajes
 
-## Práctica: Analizador de PL0 Ampliado Usando PEG.js 
+## Práctica 6: Analizador de PL0 Ampliado Usando PEG.js 
 
 ## Objetivo:
 
@@ -20,14 +20,15 @@ El objetivo de esta práctica es reescribir el analizador sintáctico del lengua
 Enlaces
 --------------
 
-- Despliegue: 
-- Tests: http:
-- Repositorio: https://github.com/alu0100693737/Analizadorpegjs
+- Despliegue: http://immense-plateau-3820.herokuapp.com/
+- Tests: http://immense-plateau-3820.herokuapp.com/test
+- Repositorio: https://github.com/alu0100693737/PracticaPL6
  
 
 
 ##### Desarrollada por
 
+*  Juan Francisco Chávez González  [Ver Perfil][https://github.com/alu0100401165]
 *  Iván García Campos  [Ver Perfil][https://github.com/alu0100693737]
 
 
@@ -36,5 +37,7 @@ License
 
 MIT
 
+
+[1]:https://github.com/alu0100401165
 [2]:https://github.com/alu0100693737
 
