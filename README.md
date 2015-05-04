@@ -1,6 +1,6 @@
 # ETSII ULL Grado de Informatica Asignatura Procesadores de Lenguajes
 
-## Práctica 6: Analizador de PL0 Ampliado Usando PEG.js 
+## Práctica: Analizador de PL0 Ampliado Usando PEG.js 
 
 ## Objetivo:
 
