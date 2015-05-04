@@ -68,4 +68,6 @@ suite('Tests', function(){
     assert.throws(function() { pl0.parse("x = 323"); }, /Expected "."/);
   });
 
+});
+
 
