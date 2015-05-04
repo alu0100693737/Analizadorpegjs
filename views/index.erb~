@@ -1,6 +1,23 @@
 <h1><img src="dojocat.jpg" WIDTH=80 HEIGHT=80 alt="Syntax Tree"/>Analizador de PL0 ampliado usando PEG.js</h1>
 
-Ejemplos utilizados en public/ejemplos 
+Ejemplos utilizados en public/ejemplos <br>
+EJ: <br>
+
+	var x, squ;<br>
+ 
+	procedure square;<br>
+	begin<br>
+	   squ = x * x<br>
+	end;<br>
+	 
+	begin<br>
+	   x = 1 - 4 - 2;<br>
+	   while x <= 10 do<br>
+	   begin<br>
+	      call square;<br>
+	      x = x + 1<br>
+	   end<br>
+	end. <br> <br>
 
 <div id="content">
   <p class="loadfile">
@@ -23,25 +40,6 @@ Ejemplos utilizados en public/ejemplos
 <%= source %>
           </textarea>
           <br/>
-          <label for="saveas">Save as</label>
-          
-	EJ: 
-
-	var x, squ;
- 
-	procedure square;
-	begin
-	   squ = x * x
-	end;
-	 
-	begin
-	   x = 1 - 4 - 2;
-	   while x <= 10 do
-	   begin
-	      call square;
-	      x = x + 1
-	   end
-	end. <br> <br>
         </form>
       </td>
       <td><button id="parse" type="button">parse</button></td>
